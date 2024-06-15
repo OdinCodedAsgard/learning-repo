@@ -1,0 +1,53 @@
+/* DONE added a background Color and text color to the body element to apply the style universally to the entire webpage also added the font weight property for styling */
+body{
+    background-color: rgb(253, 212, 162);
+    color: blueviolet;
+    font-weight: bold;
+}
+/* DONE added css code to add a border of navy color along wiht proper margin and padding to the form element  */
+#mainForm{
+    border: 2px solid navy;
+    padding:10px 80px 10px 80px;
+    margin: 20px;
+    max-width: max-content;
+    border-radius: 13px;
+    background-color: antiquewhite;
+}
+/* DONE added the css code to style the form elements/ input tags and labels using the innerDiv id  */
+#innerDiv{
+    margin: 3px;
+    padding: 4px;
+    max-width: 150px;
+}
+/* DONE used the outerDiv id to style and center the form on the webpage also added a top margin of 50px for styling */
+#outerDiv{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* DONE added style to the button using button id added padding to make it a bit bigger and used border-radius for styling  */
+#button{
+    background-color: blueviolet;
+    margin: 15px 10px ;
+    border: 2px black;
+    border-radius: 10%;
+    padding: 20px;
+    max-width: 150px;
+    font-weight: 100px;
+    color: whitesmoke
+}
+/* DONE added a padding of 2px to all the labels in the webpage for styling */
+label{
+    margin: 2px;
+}
+#heading{
+    margin: 4px;
+    font-weight: bold;
+    color: brown;
+}
+/* DONE created a css rule to style the border of input fields just for styling purposes */
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
